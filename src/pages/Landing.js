@@ -5,11 +5,11 @@ const Landing = () => {
     return (
         <div className="Landing">
           <header className="Landing-header">
-            <p>
-              Here is the start of the project!
-            </p>
+            <p>Welcome to the Almaga.</p>
+            <a href="/home">Enter the Site</a>
           </header>
         </div>
       );
 }
+
 export default Landing;
