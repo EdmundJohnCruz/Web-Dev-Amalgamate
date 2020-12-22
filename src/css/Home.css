@@ -1,9 +1,9 @@
-.Landing {
+.Home {
   text-align: center;
 }
 
-.Landing-header {
-  background-color: #051636;
+.Home-header {
+  background-color: #22375f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
