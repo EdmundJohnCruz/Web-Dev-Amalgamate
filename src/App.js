@@ -1,14 +1,20 @@
-import './App.css';
+/*Node Module Imports*/
+import React from 'react';
+import {Route, Switch} from 'react-router-dom';
+/*Page Imports*/
+import Home from './pages/Home';
+import Landing from './pages/Landing';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Here is the start of the project!
-        </p>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path = "/">
+        <Landing />
+      </Route>
+      <Route path="/home">
+        <Home />
+      </Route>
+    </Switch>
   );
 }
 
