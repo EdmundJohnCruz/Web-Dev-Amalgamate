@@ -1,8 +1,5 @@
-.Home {
-  text-align: center;
-}
-
 .Home-header {
+  text-align: center;
   background-color: #22375f;
   min-height: 100vh;
   display: flex;
