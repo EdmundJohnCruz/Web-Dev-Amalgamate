@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom';
 /*Page Imports*/
 import Home from './pages/Home';
 import Landing from './pages/Landing';
+import Pages from './pages/Pages';
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
       </Route>
       <Route path="/home">
         <Home />
+      </Route>
+      <Route path="/pages">
+        <Pages />
       </Route>
     </Switch>
   );

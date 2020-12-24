@@ -12,12 +12,12 @@ const TopNavBar = () => {
         <Navbar bg="dark" variant="dark" sticky="top">
             <Navbar.Brand href="/home">Almaga</Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link>Pages</Nav.Link>
+                <Nav.Link href="/pages">Pages</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
                 <Nav.Link href="/">Landing</Nav.Link>
             </Nav>
             <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                <FormControl type="text" placeholder="Search the site here... (WIP)" className="mr-sm-2" />
                 <Button variant="outline-info">Search</Button>
             </Form>
         </Navbar>
